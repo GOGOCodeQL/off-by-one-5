@@ -9,7 +9,6 @@ func vuln(x string) string {
 	xSlice := strings.Split(x, ",")
 	return xSlice[len(xSlice)]
 }
-
 func static() {
 	test := [5]string{"1", "2", "3", "4", "6"}
 	var x int
